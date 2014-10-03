@@ -46,7 +46,7 @@
             var placemark = _ge.createPlacemark('');
 
             var icon = _ge.createIcon('');
-            icon.setHref('http://localhost:63342/GoogleEarth/style/rhr.png');
+            icon.setHref('http://jonesopolis.azurewebsites.net/angular/style/rhr.png');
             var style = _ge.createStyle('');
             style.getIconStyle().setIcon(icon);
             placemark.setStyleSelector(style);
