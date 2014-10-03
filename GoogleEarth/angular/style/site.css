@@ -1,0 +1,54 @@
+#map {
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+
+#info {
+    position: absolute;
+    right: .5%;
+    bottom: 1%;
+    width: 30%;
+    height: 25%;
+    z-index: 9;
+
+    border: 1px red solid;
+
+    -moz-box-shadow: inset 0px 0px 11px 3px red;
+    -webkit-box-shadow: inset 0px 0px 11px 3px red;
+    box-shadow: inset 0px 0px 11px 3px red;
+
+    transition: 0.4s all ease-out;
+}
+
+#info-inner {
+    position: absolute;
+    right: .5%;
+    bottom: 1%;
+    width: 30%;
+    height: 25%;
+    z-index: 9;
+
+    background-color: white;
+
+    border: 1px red solid;
+
+    -moz-box-shadow: inset 0px 0px 11px 3px red;
+    -webkit-box-shadow: inset 0px 0px 11px 3px red;
+    box-shadow: inset 0px 0px 11px 3px red;
+}
+
+#picture {
+    height:100%;
+    padding:1.5% 0 1.5% 2%;
+}
+
+#details {
+    margin:2%;
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}

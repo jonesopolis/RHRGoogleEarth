@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+    <gx:Tour>
+        <gx:Playlist>
+            <gx:FlyTo>
+            <gx:duration>5.0</gx:duration>
+            <Camera>
+            <longitude>[LONGITUDE]</longitude>
+            <latitude>[LATITUDE]</latitude>
+            <altitude>250</altitude>
+            <heading>-6.333</heading>
+            <tilt>0</tilt>
+            </Camera>
+            </gx:FlyTo>
+
+            <gx:Wait>
+            <gx:duration>2.0</gx:duration>
+            </gx:Wait>
+
+            <!--<gx:FlyTo>-->
+            <!--<gx:duration>8.0</gx:duration>-->
+            <!--<Camera>-->
+            <!--<longitude>[LONGITUDE]</longitude>-->
+            <!--<latitude>[LATITUDE]</latitude>-->
+            <!--<altitude>200</altitude>-->
+            <!--<heading>180</heading>-->
+            <!--<tilt>33.5</tilt>-->
+            <!--</Camera>-->
+            <!--</gx:FlyTo>-->
+
+            <!--<gx:FlyTo>-->
+            <!--<gx:duration>8.0</gx:duration>-->
+            <!--<Camera>-->
+            <!--<longitude>[LONGITUDE]</longitude>-->
+            <!--<latitude>[LATITUDE]</latitude>-->
+            <!--<altitude>150</altitude>-->
+            <!--<heading>90</heading>-->
+            <!--<tilt>33.5</tilt>-->
+            <!--</Camera>-->
+            <!--</gx:FlyTo>-->
+
+            <!--<gx:FlyTo>-->
+            <!--<gx:duration>8.0</gx:duration>-->
+            <!--<Camera>-->
+            <!--<longitude>[LONGITUDE]</longitude>-->
+            <!--<latitude>[LATITUDE]</latitude>-->
+            <!--<altitude>125</altitude>-->
+            <!--<heading>0</heading>-->
+            <!--<tilt>33.5</tilt>-->
+            <!--</Camera>-->
+            <!--</gx:FlyTo>-->
+
+            <gx:FlyTo>
+            <gx:duration>5.0</gx:duration>
+            <Camera>
+            <longitude>[LONGITUDE]</longitude>
+            <latitude>[LATITUDE]</latitude>
+            <altitude>500</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            </Camera>
+            </gx:FlyTo>
+
+            <gx:Wait>
+            <gx:duration>3.0</gx:duration>
+            </gx:Wait>
+
+            <gx:FlyTo>
+            <gx:duration>5.0</gx:duration>
+            <Camera>
+            <longitude>-84.494642</longitude>
+            <latitude>38.029632</latitude>
+            <altitude>20000</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            </Camera>
+            </gx:FlyTo>
+        </gx:Playlist>
+    </gx:Tour>
+</kml>
