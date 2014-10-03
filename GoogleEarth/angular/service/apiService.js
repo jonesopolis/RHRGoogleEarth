@@ -3,7 +3,7 @@
     var apiService = function ($http, $log) {
 
         var getHouses = function(){
-            return $http.get("http://jonesopolis.azurewebsites.net//House/GetHouses").then(function (resp) {
+            return $http.get("http://jonesopolis.azurewebsites.net/House/GetHouses").then(function (resp) {
                return resp.data;
             });
         };

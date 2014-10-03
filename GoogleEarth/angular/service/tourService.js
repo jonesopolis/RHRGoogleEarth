@@ -16,7 +16,7 @@
         };
 
         var getKmlForCoords = function (coords) {
-                return $http.get('/GoogleEarth/tour.xml').then(function (resp) {
+                return $http.get('/angular/tour.xml').then(function (resp) {
                     var kmlString = resp.data.replace(/\[LATITUDE\]/g, coords.lat).replace(/\[LONGITUDE\]/g, coords.lng);
                     return _ge.parseKml(kmlString);
                 });
