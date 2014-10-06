@@ -2,7 +2,7 @@
 <head>
     <title>Rector Hayden Realtors</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/angular/style/site.css" />
+    <link rel="stylesheet" href="/GoogleEarth/style/site.css" />
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
@@ -14,9 +14,8 @@
     <div id="map"></div>
 
     <div id="info-inner" ng-show="currentTour">
-        <div class="row">
-            <img class="col-md-4 col-sm-4 col-lg-4" ng-src="{{currentTour.imageUrl}}" alt="" id="picture" />
 
+        <div class="row">
             <div class="col-md-8">
                 <br />
                 <div class="row">
@@ -47,14 +46,12 @@
             </div>
         </div>
     </div>
+    <iframe id="info" style="" frameborder="1" scrolling="no" src="javascript:void(0);" ng-show="currentTour"></iframe>
 
-
-    <iframe id="info" frameborder="1" scrolling="no" src="javascript:void(0);" ng-show="currentTour"></iframe>
-
-    <script src="/angular/app.js"></script>
-    <script src="/angular/service/tourService.js"></script>
-    <script src="/angular/service/apiService.js"></script>
-    <script src="/angular/controller/mainController.js"></script>
+    <script src="/GoogleEarth/app.js"></script>
+    <script src="/GoogleEarth/service/tourService.js"></script>
+    <script src="/GoogleEarth/service/apiService.js"></script>
+    <script src="/GoogleEarth/controller/mainController.js"></script>
 
 </body>
 </html>

@@ -26,7 +26,6 @@ namespace GoogleEarth
             jsonSettings.Formatting = Formatting.Indented;
             jsonSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
 
-            app.UseCors(CorsOptions.AllowAll);
             app.UseWebApi(config);
         }
     }
