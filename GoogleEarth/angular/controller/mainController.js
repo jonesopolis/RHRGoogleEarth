@@ -17,10 +17,6 @@
 
         var tourHouse = function (item) {
             $scope.currentTour = item;
-            document.getElementById('info').style.width = document.getElementById('info-inner').width + 'px';
-            $log.log(document.getElementById('info').style.width);
-            $log.log(document.getElementById('info-inner').width + 'px');
-
             return tourService.getLatLong(item.address).then(function (coords) {
                 return tourService.getKmlForCoords(coords).then(function (kml) {
 
@@ -50,7 +46,7 @@
             var placemark = _ge.createPlacemark('');
 
             var icon = _ge.createIcon('');
-            icon.setHref('http://jonesopolis.azurewebsites.net/style/rhr.png');
+            icon.setHref('http://jonesopolis.azurewebsites.net/angular/style/rhr.png');
             var style = _ge.createStyle('');
             style.getIconStyle().setIcon(icon);
             placemark.setStyleSelector(style);
